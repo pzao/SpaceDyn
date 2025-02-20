@@ -80,8 +80,6 @@ tau = zeros(7,1);
 d_time = 0.01;
 Gravity = [ 0 0 0 ]';
 num_q = length( q );
-% 初始化 Qi 数组
-Qi = zeros(3, num_q);
 %%% Simulation Loop start
 numj=1;
 for time = 0:d_time:10,
